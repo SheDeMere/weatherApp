@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #09093f;
+    /*backdrop-filter: blur(150px);*/
+    /*background-image: url("./assets/cloud.png") ;*/
+    background-position: center;
+
+    animation: animatedBackground 60s linear infinite;
+    -moz-animation: animatedBackground 60s linear infinite;
+    -webkit-animation: animatedBackground 60s linear infinite;
+    -o-animation: animatedBackground 60s linear infinite;
+}
+
+@keyframes animatedBackground {
+0 {
+    background-position: 0 0
+}
+100% {
+    background-position: -600px 600px /* анимируем свойство background-position */
+}
+}
+/* Mozilla Firefox 5.0+ */
+@-moz-keyframes animatedBackground {
+0 {
+    background-position: 0 0
+}
+100% {
+    background-position: -600px 600px
+}
+}
+/* Safari 4.0+, Chrome 4.0+ */
+@-webkit-keyframes animatedBackground {
+0 {
+    background-position: 0 0
+}
+100% {
+    background-position: -600px 600px
+}
+}
+/* Opera 12.0+ */
+@-o-keyframes animatedBackground {
+0 {
+    background-position: 0 0
+}
+100% {
+    background-position: -600px 600px
+}
+}
