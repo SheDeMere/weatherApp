@@ -34,7 +34,7 @@ const Form = () => {
   return (
     <div className={s.formSearchCity}>
       <button className={s.geoPositionButton} onClick={searchGeoPosition}>
-        найти меня 📍
+        📍
       </button>
       <input
         type="text"
@@ -45,7 +45,7 @@ const Form = () => {
         onKeyUp={(e) => hotKetEnter(e)}
       />
       <button className={s.searchButton} onClick={searchCity}>
-        поиск 🔎
+        🔎
       </button>
     </div>
   );

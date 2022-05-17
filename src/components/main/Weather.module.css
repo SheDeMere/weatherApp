@@ -100,3 +100,125 @@
     font-size: 35px;
     font-weight: 300;
 }
+
+
+
+@media screen and (max-width: 1920px) {
+    .startText {
+        font-size: 55px;
+    }
+    .formSearchCity {
+        width: 800px;
+        font-size: 35px;
+    }
+    .searchInput {
+        font-size: 20px;
+        width: 800px;
+        height: 60px;
+    }
+
+    .geoPositionButton, .searchButton {
+        height: 60px;
+        font-size: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 1370px) {
+    .startText {
+        font-size: 35px;
+    }
+    .formSearchCity {
+        width: 700px;
+        font-size: 25px;
+    }
+    .searchInput {
+        font-size: 18px;
+        width: 600px;
+        height: 45px;
+    }
+
+    .geoPositionButton, .searchButton {
+        height: 45px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .startText {
+        font-size: 25px;
+    }
+    .formSearchCity {
+        width: 360px;
+        font-size: 25px;
+    }
+    .weather {
+        margin-top: 10px;
+    }
+    .searchInput {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    .startText {
+        width: 300px;
+        font-size: 25px;
+    }
+    .formSearchCity {
+        width: 400px;
+        font-size: 25px;
+    }
+    .searchInput {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .startText {
+        width: 290px;
+        font-size: 25px;
+    }
+    .formSearchCity {
+        width: 360px;
+        font-size: 25px;
+    }
+    .weather {
+        margin-top: 10px;
+    }
+    .searchInput {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .startText {
+        width: 290px;
+        font-size: 20px;
+    }
+    .formSearchCity {
+        width: 300px;
+        font-size: 25px;
+    }
+    .searchInput {
+        font-size: 14px;
+    }
+
+    .weather {
+        margin-top: 10px;
+    }
+    .city {
+        font-size: 25px;
+    }
+    .iconWeather {
+        width: 150px;
+    }
+    .temp {
+        font-size: 30px;
+    }
+    .deskWeather {
+        font-size: 25px;
+    }
+}
