@@ -116,11 +116,23 @@
         width: 800px;
         height: 60px;
     }
-
     .geoPositionButton, .searchButton {
         height: 60px;
         font-size: 20px;
     }
+    .city {
+        font-size: 60px;
+    }
+    .iconWeather {
+        width: 250px;
+    }
+    .temp {
+        font-size: 60px;
+    }
+    .deskWeather {
+        font-size: 60px;
+    }
+
 }
 
 
@@ -173,6 +185,21 @@
     }
     .searchInput {
         font-size: 15px;
+    }
+    .weather {
+        margin-top: 10px;
+    }
+    .city {
+        font-size: 35px;
+    }
+    .iconWeather {
+        width: 200px;
+    }
+    .temp {
+        font-size: 30px;
+    }
+    .deskWeather {
+        font-size: 30px;
     }
 }
 
