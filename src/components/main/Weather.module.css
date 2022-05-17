@@ -49,7 +49,7 @@
 
 .geoPositionButton {
     height: 40px;
-    width: 140px;
+    width: 100px;
     color: black;
     border: solid 1px white;
     background: white;
@@ -103,37 +103,6 @@
 
 
 
-@media screen and (max-width: 1920px) {
-    .startText {
-        font-size: 55px;
-    }
-    .formSearchCity {
-        width: 800px;
-        font-size: 35px;
-    }
-    .searchInput {
-        font-size: 20px;
-        width: 800px;
-        height: 60px;
-    }
-    .geoPositionButton, .searchButton {
-        height: 60px;
-        font-size: 20px;
-    }
-    .city {
-        font-size: 60px;
-    }
-    .iconWeather {
-        width: 250px;
-    }
-    .temp {
-        font-size: 60px;
-    }
-    .deskWeather {
-        font-size: 60px;
-    }
-
-}
 
 
 
