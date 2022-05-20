@@ -1,8 +1,7 @@
 import React, { memo } from 'react';
 import s from './Weather.module.css'
 
-const Weather = memo(({ name, icon, temp, tempMin, tempMax, description }) => {
-    console.log(description)
+const Weather = memo(({ name, icon, temp, tempMin, tempMax, description, nightMode }) => {
     const temperature = JSON.stringify(temp).substr(0, 2)
     return (
         <div className={s.weather}>

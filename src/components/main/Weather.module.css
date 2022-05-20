@@ -23,8 +23,10 @@
 .formSearchCity {
     position: absolute;
     display: flex;
+    align-items: center;
     top: 50px;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 .searchInput {
@@ -102,8 +104,40 @@
 }
 
 
+.buttonChangeTheme {
+    border: none;
+    background: none;
+    position: fixed;
+    right: 300px;
+    border-radius: 100%;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    animation: 1.3s neon-2 alternate-reverse infinite;
+}
 
+.nightMode {
+    color: white;
+    background: #1e1e1e;
+}
 
+@keyframes neon-2 {
+    from {
+        box-shadow: 0 0 5px #FFF,
+        0 0 10px #FFF,
+        0 0 15px #FFF,
+        0 0 20px #BFE2FF;
+    }
+    to {
+        box-shadow: 0 0 20px #BFE2FF,
+        0 0 35px #BFE2FF,
+        0 0 40px #BFE2FF,
+        0 0 50px #BFE2FF,
+        0 0 800px #BFE2FF;
+    }
+}
 
 
 @media screen and (max-width: 1370px) {

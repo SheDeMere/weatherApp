@@ -4,7 +4,7 @@ import Weather from "./Weather";
 import Form from "./Form";
 import { ScaleLoader } from "react-spinners";
 const Index = () => {
-  const { weather, loading, error } = useSelector((state) => state.weather);
+  const { weather, loading, error, nightMode } = useSelector((state) => state.weather);
   const override = `
   display: block;
   margin: 0 auto;
@@ -12,7 +12,7 @@ const Index = () => {
 `;
 
   return (
-    <div className={s.weatherMain}>
+    <div className={`${s.weatherMain} ${nightMode && s.nightMode}`}>
       <Form />
       {weather !== null ? (
         <div>
@@ -31,6 +31,7 @@ const Index = () => {
                   key={item.id}
                   description={item.description}
                   error={error}
+                  nightMode={nightMode}
                 />
               );
             })

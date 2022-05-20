@@ -35,3 +35,11 @@ export const getWeatherGeoPosition = (lat, lon) => async dispatch => {
         })
     }
 }
+
+
+export const changeTheme = (theme) => {
+        return {
+            type: 'CHANGE_THEME',
+            payload: theme
+        }
+}

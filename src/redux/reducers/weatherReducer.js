@@ -1,7 +1,8 @@
 const initialState = {
     weather: null,
     loading: false,
-    error: false
+    error: false,
+    nightMode: false
 }
 
 export const weatherReducer = (state = initialState, action) => {
@@ -25,6 +26,12 @@ export const weatherReducer = (state = initialState, action) => {
                 ...state,
                 loading: false,
                 error: true
+            }
+
+        case 'CHANGE_THEME':
+            return {
+                ...state,
+                nightMode: action.payload
             }
         default:
             return state
