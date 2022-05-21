@@ -2,7 +2,7 @@ const initialState = {
     weather: null,
     loading: false,
     error: false,
-    nightMode: false
+    nightMode: JSON.parse(localStorage.getItem('nightMode')) || false
 }
 
 export const weatherReducer = (state = initialState, action) => {

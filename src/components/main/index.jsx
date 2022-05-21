@@ -5,6 +5,7 @@ import Form from "./Form";
 import { ScaleLoader } from "react-spinners";
 const Index = () => {
   const { weather, loading, error, nightMode } = useSelector((state) => state.weather);
+
   const override = `
   display: block;
   margin: 0 auto;
